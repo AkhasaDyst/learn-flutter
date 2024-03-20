@@ -14,15 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[100],
       ),
       body: Center(
-        child: Text(
-          'ini adalah aplikasi pertama dengan flutter',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.brown,
-            fontFamily: 'Storytime',
-          ),),
+        child: Image.asset('image.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
